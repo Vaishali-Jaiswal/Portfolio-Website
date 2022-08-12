@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Vaishali Jaiswal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    <div class="home" id="home">
+        <nav>
+            <ul>
+                <li> <a href="#home" class="home1"> &lt; Vaishali &gt;</a> </li>
+                <li> <a href="#bioContainer" class="about"> About </a> </li>
+                <li> <a href="#workNProjects" class="work"> Work & Projects </a> </li>
+                <li> <a href="Vaishali_Jaiswal_Resume.pdf" class="resume" target="_blank"> Resume </a> </li>
+                <li> <a href="#contactContainer" class="contact"> Contact </a> </li>
+            </ul>
+        </nav>
+
+        <div class="infoContainer">
+            Hi, I'm Vaishali Jaiswal | <span> Software <br> Engineer </span>
+            <p id="intro"> I love exploring and creating. <img src="images\rocket.ico"> <br> I'm a passionate programmer
+                and
+                lifelong learner. </p>
+        </div>
+    </div>
+
+    <div class="bioContainer" id="bioContainer">
+        <h1> My <span> Skills </span> </h1>
+        <img src="images\VaishaliJaiswal_Profile-modified.png">
+        <div class="skillIcon">
+            <ul>
+                <li> C++ </li>
+                <li> Sql </li>
+                <li> HTML </li>
+                <li> CSS </li>
+                <li> Javascript </li>
+            </ul>
+            <br>
+            <ul>
+                <li> React </li>
+                <li> Apache Airflow </li>
+                <li> Google Cloud Platform </li>
+                <li> Big Query </li>
+            </ul>
+        </div>
+        <div class="bioInfo">
+            <h3> I love programming and building stuff </h3>
+            <p> I'm passionate about bringing both the technical and visual aspects of digital products to life. User
+                experience, beautiful pixels and writing clean accessible, human code matters to me. I sweat the
+                details. <br> <br>
+                I have Master's in Computer Application from a highly reputed Institute MNNIT-Allahabad. <br> <br>
+                I'm happiest when I'm creating, learning, exploring and thinking about how to make things better. </p>
+            <a href="about.html"> Keep reading my bio </a>
+        </div>
+    </div>
+
+    <div class="workNProjects" id="workNProjects">
+        <h1> Work </h1>
+        <div class="workInfo">
+            <h2> Data Engineer Intern | S&P Global </h2>
+            <p> I have 6 month internship experience at <b> S&P Global, Gurgaon </b> as a <b>Data Engineer</b>. <br>
+                Where
+                I've played key role to understand business requirement and solve the problems by creating DAGs
+                (Directed
+                Acyclic Graph) to perform <b> ETL Operations </b> using: <br> <b> Apache Airflow, GCP, BigQuery, Python,
+                    Slack
+                    Integration, Elastic Search and Kibana etc.</b> </p>
+            <img src="images\programmer.jfif" alt="">
+        </div>
+        <div class="projects">
+            <h1> Projects </h1>
+            <div class="projectsInfo">
+                <h5> A Selection Of Stuff's I've Built </h5> <br> <br>
+                <ul class="cards">
+                    <li>
+                        <img src="images\project.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h3><b> Personal Website </b></h3>
+                            <ul class="card">
+                                <li> <b> HTML </b> </li> &nbsp; &nbsp;
+                                <li> <b> CSS </b> </li> &nbsp; &nbsp;
+                                <li> <b> Javascript </b> </li>
+                            </ul>
+                            <p> This is my personal website, which contains portfolio, resume & all the things which
+                                will help you to know about me & my work.</p>
+                            <button type="button"> demo </button> &nbsp; &nbsp;
+                            <button type="button"id="github" onclick="functionToGithub()"> github </button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images\project.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h3><b> Personal Website </b></h3>
+                            <ul class="card">
+                                <li> <b> HTML </b> </li> &nbsp; &nbsp;
+                                <li> <b> CSS </b> </li> &nbsp; &nbsp;
+                                <li> <b> Javascript </b> </li>
+                            </ul>
+                            <p> This is my personal website, which contains portfolio, resume & all the things which
+                                will help you to know about me & my work.</p>
+                            <button type="button"> demo </button> &nbsp; &nbsp;
+                            <button type="button" id="github" onclick="functionToGithub()"> github </button>
+                            </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="contactContainer" id="contactContainer">
+        <h1 class="headings"> Contact </h1>
+        <div class="contactInfo">
+            <p> Let's have a <span id="chat"> chat </span> </p> <br> <br> <br>
+            <a href="mailtto:vaishalijaiswal117@gmail.com"> vaishalijaiswal117@gmail.com </a>
+            <img src="images\contactimg.png" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <ul class="foot">
+            <li>
+                <h2> Vaishali Jaiswal </h2>
+                <p> &#169; 2022 built & designed by <br> Vaishali Jaiswal </p>
+            </li>
+        </ul>
+        <div> Links </div> <br>
+        <ol class="link">
+            <li> <b> <a href="#bioContainer"> about </a> </b> </li>
+            <li> <b> <a href="#workNProjects"> project </a> </b> </li>
+        </ol>
+        <ol class="link">
+            <li> <b> <a href="resume.html"> resume </a> </b> </li>
+            <li> <b> <a href="#contactContainer"> contact </a> </b> </li>
+        </ol>
+        <div> Get in touch <br> </div>
+        <ul class="icons">
+            <li> <a href="https://github.com/Vaishali-Jaiswal" target="_blank"> <img src="images\githublogo.png" width="50px" height="50px"> </a> </li> &nbsp; &nbsp;
+            <li> <a href="https://www.linkedin.com/in/vaishali-jaiswal-vj/" target="_blank"> <img src="images\linkedinlogo.png" width="50px" height="50px"> </a> </li> &nbsp; &nbsp;
+            <li> <a href="mailto:vaishalijaiswal117@gmail.com" target="_blank"> <img src="images\maillogo.png" width="50px" height="50px"> </a> </li> &nbsp; &nbsp;
+        </ul>
+
+    </footer>
+</body>
+
+</html>
