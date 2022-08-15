@@ -7,20 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Vaishali Jaiswal</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    
 </head>
 
 <body>
     
     <div class="home" id="home">
-        <nav>
-            <ul>
-                <li> <a href="#home" class="home1"> &lt; Vaishali &gt;</a> </li>
+        <nav class="navbar h-nav">
+            <ul class="nav-list v-class">
+                <li> <a href="#home" class="home1"> Home </a> </li>
                 <li> <a href="#bioContainer" class="about"> About </a> </li>
                 <li> <a href="#workNProjects" class="work"> Work & Projects </a> </li>
                 <li> <a href="Vaishali_Jaiswal_Resume.pdf" class="resume" target="_blank"> Resume </a> </li>
                 <li> <a href="#contactContainer" class="contact"> Contact </a> </li>
             </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
 
         <div class="infoContainer">
@@ -41,35 +46,35 @@
                 <li> HTML </li>
                 <li> CSS </li>
                 <li> Javascript </li>
+                <li> React </li>
             </ul>
             <br>
             <ul>
-                <li> React </li>
                 <li> Apache Airflow </li>
                 <li> Google Cloud Platform </li>
                 <li> Big Query </li>
             </ul>
         </div>
         <div class="bioInfo">
-            <h3> I love programming and building stuff </h3>
+            <h3> I love programming and building stuff </h3> <br>
             <p> I'm passionate about bringing both the technical and visual aspects of digital products to life. User
                 experience, beautiful pixels and writing clean accessible, human code matters to me. I sweat the
                 details. <br> <br>
-                I have Master's in Computer Application from a highly reputed Institute MNNIT-Allahabad. <br> <br>
-                I'm happiest when I'm creating, learning, exploring and thinking about how to make things better. </p>
-            <a href="about.html"> Keep reading my bio </a>
+                I have Master's in Computer Application from a highly reputed Institute MNNIT-Allahabad. <br><br>
+                I'm happiest when I'm creating, learning, exploring and thinking about how to make things better. </p> <br>
+            <a href="Vaishali_Jaiswal_Resume.pdf"> Keep reading my bio </a>
         </div>
     </div>
 
     <div class="workNProjects" id="workNProjects">
         <h1> Work </h1>
         <div class="workInfo">
-            <h2> Data Engineer Intern | S&P Global </h2>
-            <p> I have 6 month internship experience at <b> S&P Global, Gurgaon </b> as a <b>Data Engineer</b>. <br>
+            <h2> Data Engineer Intern | S&P Global </h2> <br>
+            <p> I have 6 month internship experience at <b> S&P Global, Gurgaon </b> as a <b>Data Engineer</b>. <br> <br>
                 Where
                 I've played key role to understand business requirement and solve the problems by creating DAGs
                 (Directed
-                Acyclic Graph) to perform <b> ETL Operations </b> using: <br> <b> Apache Airflow, GCP, BigQuery, Python,
+                Acyclic Graph) to perform <b> ETL Operations </b> using: <br> <br> <b> Apache Airflow, GCP, BigQuery, Python,
                     Slack
                     Integration, Elastic Search and Kibana etc.</b> </p>
             <img src="images\programmer.jfif" alt="">
@@ -80,33 +85,46 @@
                 <h5> A Selection Of Stuff's I've Built </h5> <br> <br>
                 <ul class="cards">
                     <li>
-                        <img src="images\project.png" alt="Avatar" style="width:100%">
+                        <img src="images\project.png" alt="Avatar" style="width:100%" height="200">
                         <div class="container">
                             <h3><b> Personal Website </b></h3>
                             <ul class="card">
                                 <li> <b> HTML </b> </li> &nbsp; &nbsp;
                                 <li> <b> CSS </b> </li> &nbsp; &nbsp;
                                 <li> <b> Javascript </b> </li>
-                            </ul>
+                            </ul> <br>
                             <p> This is my personal website, which contains portfolio, resume & all the things which
-                                will help you to know about me & my work.</p>
+                                will help you to know about me & my work. <br> <br> </p> <br>
                             <button type="button"> demo </button> &nbsp; &nbsp;
-                            <button type="button"id="github" onclick="functionToGithub()"> github </button>
+                            <button type="button"id="githubP1"> github </button>
                         </div>
                     </li>
                     <li>
-                        <img src="images\project.png" alt="Avatar" style="width:100%">
+                        <img src="images\MLproject.png" alt="Avatar" style="width:100%" height="200">
                         <div class="container">
-                            <h3><b> Personal Website </b></h3>
+                            <h3><b> Machine Learning Project </b></h3>
                             <ul class="card">
-                                <li> <b> HTML </b> </li> &nbsp; &nbsp;
-                                <li> <b> CSS </b> </li> &nbsp; &nbsp;
-                                <li> <b> Javascript </b> </li>
-                            </ul>
-                            <p> This is my personal website, which contains portfolio, resume & all the things which
-                                will help you to know about me & my work.</p>
+                                <li> <b> Python </b> </li> &nbsp; &nbsp;
+                                <li> <b> ML Classifiers </b> </li> &nbsp; &nbsp;
+                                <li> <b> Jupyter Notebook </b> </li>
+                            </ul> <br>
+                            <p> This project is based on a research paper published recently to get the Machine Learning Model with highest accuracy rate to predict Coronary Artery Diesease.</p> <br>
                             <button type="button"> demo </button> &nbsp; &nbsp;
-                            <button type="button" id="github" onclick="functionToGithub()"> github </button>
+                            <button type="button" id="githubP2"> github </button>
+                            </div>
+                    </li>
+                    <li>
+                        <img src="images\comingsoon.png" alt="Avatar" style="width:100%" height="400">
+                        <div class="container">
+                            <!-- <h3><b> Machine Learning Project </b></h3>
+                            <ul class="card">
+                                <li> <b> Python </b> </li> &nbsp; &nbsp;
+                                <li> <b> ML Classifiers </b> </li> &nbsp; &nbsp;
+                                <li> <b> Jupyter Notebook </b> </li>
+                            </ul> <br>
+                            <p> This project is based on a research paper published recently to get the Machine Learning Model with highest accuracy rate to predict Coronary Artery Diesease.</p> <br>
+                            <button type="button"> demo </button> &nbsp; &nbsp;
+                            <button type="button" id="githubP3"> github </button> -->
                             </div>
                     </li>
                 </ul>
@@ -148,6 +166,8 @@
         </ul>
 
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
