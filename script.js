@@ -14,3 +14,7 @@ document.getElementById("githubP1").onclick = function () {
 document.getElementById("githubP2").onclick = function () {
     location.href = "https://github.com/Vaishali-Jaiswal/Machine-Learning-Project";
 };
+
+document.getElementById("githubP3").onclick = function () {
+    location.href = "https://github.com/Vaishali-Jaiswal/Spotify-Clone-App.git";
+};

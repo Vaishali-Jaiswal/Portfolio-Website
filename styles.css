@@ -207,9 +207,17 @@ ul {
     border-radius: 5px;
 }
 
-.container {
+.container1 {
     font-family: 'Quicksand', sans-serif;
     height: 30px;
+    width: 330px;
+   padding-left: 15px;
+}
+
+
+.container {
+    font-family: 'Quicksand', sans-serif;
+    height: 235px;
     width: 330px;
    padding-left: 15px;
 }
