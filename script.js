@@ -18,3 +18,16 @@ document.getElementById("githubP2").onclick = function () {
 document.getElementById("githubP3").onclick = function () {
     location.href = "https://github.com/Vaishali-Jaiswal/Spotify-Clone-App.git";
 };
+
+
+document.getElementById("githubP4").onclick = function () {
+    location.href = "https://github.com/Vaishali-Jaiswal/The-Simon-Game";
+};
+
+document.getElementById("githubP5").onclick = function () {
+    location.href = "https://github.com/Vaishali-Jaiswal/Drum-Kit-Game";
+};
+
+document.getElementById("githubP6").onclick = function () {
+    location.href = "https://github.com/Vaishali-Jaiswal/Dice-Game";
+};
